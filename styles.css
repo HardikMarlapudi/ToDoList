@@ -13,7 +13,7 @@ body {
 
 .inputText {
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     justify-content: space-between;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
@@ -21,17 +21,28 @@ body {
     border: none;
     border-radius: 30px;
     margin-bottom: 20px;
-    margin-inline-start: 3%;
+    margin-inline-start: 2%;
     border-color: black;
 }
 
 #createData {
-    font-size: 35px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     font-weight: bold;
-    border-radius: 10%;
+    border-radius: 40%;
     border-color: lightgreen;
     background-color: lightgreen;
+    cursor: pointer;
+}
+
+#list-items {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10%;
+    border-color: aliceblue;
+    background-color: aliceblue;
     cursor: pointer;
 }
