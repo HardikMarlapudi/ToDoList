@@ -3,7 +3,7 @@ let createData = document.getElementById("createData");
 let saveData = document.getElementById("saveData");
 
 function create() {
-    const inputText = input.value.text();
+    const inputItems = inputText.value.trim();
 
     if(inputItems === "") {
         window.alert("Please enter a task");
