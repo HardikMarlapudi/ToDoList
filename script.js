@@ -14,4 +14,9 @@ function create() {
         inputText.value = "";
         }
         createData.onclick = create;
+    try {
+    inputText.value === inputItems;
+    } catch (error) {
+        window.alert("You hava already completed this task");
     }
+}

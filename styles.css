@@ -55,3 +55,14 @@ body {
     font-size: 22px;
     margin: 10px 0;
 }
+
+footer {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 590px;
+    bottom: auto;
+    font-weight: bold;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
