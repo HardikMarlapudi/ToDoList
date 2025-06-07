@@ -31,10 +31,21 @@ body {
 
 #createData {
     font-size: 25px;
-    padding: 10px 20px;
+    padding: 10px;
     border: none;
-    border-radius: 50%;
+    border-radius: 10%;
     background-color: lightgreen;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#removeData {
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 10%;
+    background-color: red;
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -45,24 +56,57 @@ body {
     color: white;
 }
 
+#removeData:hover {
+    background-color: darkred;
+    color: white;
+}
+
 #saveData {
+    display: block;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     list-style-type: none;
     padding-left: 0;
     text-align: center;
 }
 
 #saveData li {
+    display: block;
     font-size: 22px;
-    margin: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    position: relative;
+    border: none;
+    border-radius: 5%;
 }
 
-footer {
+.dataOptions {
     display: block;
+    align-items: center;
+    align-content: center;
     text-align: center;
     position: relative;
-    top: 590px;
-    bottom: auto;
-    font-weight: bold;
-    font-size: 15px;
+    padding: 10px 20px;
+    font-size: 22px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }
+
+/*
+footer {
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left: 280px;
+    bottom: 220%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+*/
