@@ -12,7 +12,7 @@ function create() {
 }
 
 function edit() {
-    if (document.getElementById("createData").textContent === "") {
+    if (document.getElementById("createData").innerHTML === "") {
         editData.disabled = true;
     } else {
         let editElement = saveData.lastElementChild;
@@ -22,9 +22,10 @@ function edit() {
 }
 
 function remove() {
-    if (document.getElementById("createData").textContent === "") {
-        removeData.disabled = true;
+    if (document.getElementById("inputText") === "") {
+        deleteData.disabled = true;
     } else {
-        saveData.removeChild(saveData.lastElementChild);
+    saveData.removeChild(saveData.lastElementChild);
+    inputText.value = "";
     }
 }
