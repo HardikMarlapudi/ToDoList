@@ -1,33 +1,30 @@
 body {
-    background-color: lightblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px 20px;
-    position: relative;
+    background-color: skyblue;
 }
 
 #title {
     display: block;
     text-align: center;
     font-size: 35px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: black;
     font-weight: bold;
     margin-top: 30px;
 }
 
 .input-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 #inputText {
     width: 300px;
     padding: 10px 20px;
-    border: 2px solid black;
+    border: none;
     border-radius: 25px;
-    margin-inline-start: 3%;
+    margin-inline-start: 4%;
     font-size: 18px;
 }
 
@@ -35,11 +32,10 @@ body {
     font-size: 25px;
     padding: 10px;
     border: none;
-    border-radius: 10%;
+    border-radius: 20%;
     background-color: lightgreen;
-    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 #createData:hover {
@@ -47,12 +43,22 @@ body {
     color: white;
 }
 
+#buttons {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    color:cadetblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 #saveData {
     display: block;
     text-align: center;
     padding: 10px 20px;
     position: relative;
-    color: lightslategrey;
+    color:cadetblue;
     font-size: 20px;
     font-weight: bold;
 }
@@ -62,16 +68,14 @@ body {
     align-items: center;
     align-content: center;
     padding: 5px 10px;
-    border: none;
-    border-radius: 1px solid black;
-    border-radius: 5px;
+    color: blue;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
 }
 
 .fa-pen-to-square:hover {
-    color: blue;
+    color: darkblue;
 }
 
 .fa-trash {
@@ -79,13 +83,9 @@ body {
     align-items: center;
     align-content: center;
     padding: 5px 10px;
-    border: none;
-    border-radius: 1px solid black;
     border-radius: 5px;
-    font-size: 20px;
-    font-weight: bold;
+    color: red;
     cursor: pointer;
-    
 }
 
 .fa-trash:hover {
@@ -95,27 +95,12 @@ body {
 #saveData li {
     display: block;
     font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    list-style-type: none;
-    padding-left: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-weight: bold;
     padding: 10px 20px;
     position: relative;
-    border: none;
     border-radius: 5%;
-}
-
-.dataOptions {
-    display: block;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    position: relative;
-    padding: 10px 20px;
-    font-size: 22px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    cursor: pointer;
 }
 
 footer {
@@ -123,6 +108,7 @@ footer {
     text-align: center;
     padding: 5px 10px;
     position: relative;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     top: auto;
     color: lightslategrey;
     font-size: 20px;
