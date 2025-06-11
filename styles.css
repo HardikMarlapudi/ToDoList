@@ -1,6 +1,8 @@
 body {
     background-color: lightblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    position: relative;
 }
 
 #title {
@@ -40,34 +42,54 @@ body {
     transition: background-color 0.3s ease;
 }
 
-#removeData {
-    font-size: 25px;
-    padding: 10px;
-    border: none;
-    border-radius: 10%;
-    background-color: red;
-    color: black;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
 #createData:hover {
     background-color: green;
     color: white;
 }
 
-#removeData:hover {
-    background-color: darkred;
-    color: white;
-}
-
 #saveData {
     display: block;
-    font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    list-style-type: none;
-    padding-left: 0;
     text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    color: lightslategrey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fa-pen-to-square {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-pen-to-square:hover {
+    color: blue;
+}
+
+.fa-trash {
+    display: inline-block;
+    align-items: center;
+    align-content: center;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.fa-trash:hover {
+    color: darkred;
 }
 
 #saveData li {
@@ -96,17 +118,14 @@ body {
     cursor: pointer;
 }
 
-/*
 footer {
-    display: flex;
-    position: absolute;
-    top: 95%;
-    left: 280px;
-    bottom: 220%;
+    display: block;
     text-align: center;
+    padding: 5px 10px;
+    position: relative;
+    top: auto;
+    color: lightslategrey;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
-    color: grey;
+    top: 570px;
 }
-*/

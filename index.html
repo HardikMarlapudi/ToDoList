@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/02ce3c4ccb.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css" />
   <title>ToDoList</title>
 </head>
@@ -13,15 +15,15 @@
   <div class="input-container">
     <input type="text" id="inputText" placeholder="Enter a task:" />
     <button id="createData" onclick="create()">Add</button>
-    <button id="removeData" onclick="remove()">Delete</button>
   </div>
 
-  <ul id="saveData"></ul>
+  <ul id="saveData">
+    <i class="fa-solid fa-pen-to-square" onclick="edit()"></i>
+    <i class="fa-solid fa-trash" onclick="remove()"></i>
+  </ul>
 
-  <!--
-  <footer>&copy; 2025 Hardik Marlapudi. All rights reserved.</footer>
-  -->
-  
+  <footer>&copy; 2025 Hardik Marlapudi. All Rights Reserved.</footer>
+
   <script src="script.js"></script>
 
 </body>
