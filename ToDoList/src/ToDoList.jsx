@@ -41,8 +41,20 @@ function ToDoList() {
                         <button className='delete-button' onClick={() => {
                             setTasks(tasks.filter((_, i) => i !== index));
                         }}>Delete</button>
-                        <button className="upArrow">Up</button>
-                        <button className="downArrow">Down</button>
+                        <button className="upArrow" onClick={() => {
+                            if(index > 0) {
+                                const updatedTasks = [...tasks];
+                                [updatedTasks[index], updatedTasks[index - 1]] = [updatedTasks[index - 1], updatedTasks[index]];
+                                setTasks(updatedTasks);
+                            }
+                        }}>Up</button>
+                        <button className="downArrow" onClick={() => {
+                            if(index < tasks.length - 1) {
+                                const updatedTasks = [...tasks];
+                                [updatedTasks[index], updatedTasks[index + 1]] = [updatedTasks[index + 1], updatedTasks[index]];
+                                setTasks(updatedTasks);
+                            }
+                        }}>Down</button>
                     </div>
                 })}
             </div>
