@@ -1,0 +1,75 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: white;
+}
+
+.to-do-list {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+}
+
+#taskInput {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.add-button {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: white;
+    padding: 2px 15px;
+    cursor: pointer;
+}
+
+.delete-button {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.upArrow {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: hsl(205, 96%, 47%);
+    color: white;
+    cursor: pointer;
+}
+
+.downArrow {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: hsl(205, 96%, 47%);
+    color: white;
+    cursor: pointer;
+}
+
+.list {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
