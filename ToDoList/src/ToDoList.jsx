@@ -18,8 +18,8 @@ function ToDoList() {
     }
 
     function removeTask(index) {
-        if(index < tasks.length) {
-            setTasks(tasks.filter((_, i) => i !== index));
+        if(index < setTasks.length) {
+            setTasks(t => t.filter((_, i) => i !== index));
         }
     }
 
